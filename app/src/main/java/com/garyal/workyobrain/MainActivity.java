@@ -1,17 +1,31 @@
 package com.garyal.workyobrain;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class MainActivity extends ActionBarActivity {
-
+    private static final String TAG = "someMsg";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Login");
+
         setContentView(R.layout.activity_main);
+
+        Button btnLogin = (Button) findViewById(R.id.logInButton);
+        btnLogin.setOnClickListener(
+                new  Button.OnClickListener(){
+                    public void onClick(View v){
+
+                    }
+                }
+
+        );
     }
 
     @Override

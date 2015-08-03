@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="SignInTitle">Sign In!</string>
+    <string name="LogInButton">Login</string>
 </resources>
